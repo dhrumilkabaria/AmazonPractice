@@ -40,5 +40,6 @@ For any inquiry or need additional information, please contact support-qaf@infos
 			<class name="com.qmetry.qaf.example.test.SampleTest"></class>
 		</classes>
 	</test>
+	<!-- test -->
 
 </suite>
