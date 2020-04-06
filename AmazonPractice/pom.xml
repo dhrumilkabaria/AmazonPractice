@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.qmetry</groupId>
-	<artifactId>qaf-blank-project-maven</artifactId>
+	<artifactId>AmazonPractice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -15,7 +15,7 @@
 		<testSuiteFile>config/testrun_config.xml</testSuiteFile>
 		<sourceVersion>1.8</sourceVersion>
 		<targetVersion>1.8</targetVersion>
-		<qaf.version>2.1.15</qaf.version>
+		<qaf.version>2.1.14</qaf.version>
 		<selenium.version>3.141.59</selenium.version>
 		<test.results.dir>test-results</test.results.dir>
 		<run.time>${maven.build.timestamp}</run.time>
