@@ -1,0 +1,31 @@
+homepage.login.link=linkText=SIGN-ON
+homepage.resgister.link=linkText=REGISTER
+homepage.support.link=linkText=SUPPORT
+homepage.contact.link=linkText=CONTACT
+homepage.home.link=linkText=Home
+homepage.flights.link=linkText=Flights
+homepage.hotels.link=linkText=Hotels
+homepage.car.rentals.link=linkText=Car Rentals
+homepage.cruises.link=linkText=Cruises
+homepage.destinations.link=linkText=Destinations
+homepage.vacations.link=linkText=Vacations
+homepage.yourdestination.link=linkText=your destination
+homepage.featured.vacation.destinations.link=linkText=featured vacation destinations
+homepage.register.here.link=linkText=Register here
+homepage.business.travel.link=linkText=Business Travel @ About.com
+homepage.salon.travel.link=linkText=Salon Travel
+homepage.username.txt=xpath=//input[@name='userName']
+homepage.password.txt=xpath=//input[@name='password']
+homepage.signin.btn=xpath=//input[@name='login']
+homepage.featured.destination.img=xpath=//img[@src='/images/featured_destination.gif']
+homepage.specials.img=xpath=//img[@src='/images/hdr_specials.gif']
+homepage.tourtips.img=xpath=//img[@src='/images/hdr_tips.gif']
+homepage.findaflight.img=xpath=//img[@src='/images/hdr_findflight.gif']
+homepage.destinations.img=xpath=//img[@src='/images/hdr_destinations.gif']
+homepage.vacations.img=xpath=//img[@src='/images/hdr_vacation.gif']
+homepage.register.img=xpath=//img[@src='/images/hdr_register.gif']
+homepage.links.img=xpath=//img[@src='/images/hdr_links.gif']
+
+homepage.amazonLogo.link=xpath=//a[@aria-label='Amazon']
+homepage.signinMenu.link=xpath=//a[./span[text()='Hello. Sign in']]
+homepage.signinButton.link=xpath=//a[./span[text()='Sign in'] and @data-nav-role='signin' and @class='nav-action-button']

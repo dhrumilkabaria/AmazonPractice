@@ -1,0 +1,5 @@
+loginPage.emailOrPhoneNumberTextBox.textbox=xpath=//input[@id='ap_email']
+loginPage.loginLabel.label=xpath=//h1[normalize-space(text())='Login']
+loginPage.continueButton.button=xpath=//input[@id='continue']
+loginPage.passwordTextBox.textbox=xpath=//input[@id='ap_password']
+loginPage.loginButton.button=xpath=//input[@id='signInSubmit']
