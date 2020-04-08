@@ -1,0 +1,1 @@
+productDetailsPage.productName.text=xpath=//span[contains(@id,'Title')]

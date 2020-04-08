@@ -1,3 +1,5 @@
 homepage.amazonLogo.link=xpath=//a[@aria-label='Amazon']
 homepage.signinMenu.link=xpath=//a[./span[text()='Hello. Sign in']]
 homepage.signinButton.link=xpath=//a[./span[text()='Sign in'] and @data-nav-role='signin' and @class='nav-action-button']
+homePage.searchTextBox.textbox=xpath=//input[@id='twotabsearchtextbox']
+homePage.searchIcon.icon=xpath=//input[@value='Go']

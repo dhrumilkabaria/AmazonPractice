@@ -28,6 +28,18 @@ public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage> {
 		return amazonLogo;
 	}
 	
+	@FindBy(locator = "homePage.searchTextBox.textbox")
+	private QAFWebElement searchTextBox;
+	public QAFWebElement getSearchTextBox() {
+		return searchTextBox;
+	}
+	
+	@FindBy(locator = "homePage.searchIcon.icon")
+	private QAFWebElement searchIcon;
+	public QAFWebElement getSearchIcon() {
+		return searchIcon;
+	}
+	
 	public void doLogin(String username, String password) {
 		Actions action = new Actions(driver);
 		action.moveToElement(this.getSigninMenu());
