@@ -7,10 +7,8 @@ import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver;
 
 public class AmazonUtility {
 	
-	private static WebDriverTestBase webDriverTestBase = new WebDriverTestBase();
-	private static QAFExtendedWebDriver driver = webDriverTestBase.getDriver();
-
 	public static void switchToNewWindow() {
+		QAFExtendedWebDriver driver = new WebDriverTestBase().getDriver();
 		String currentWindow = driver.getWindowHandle();
 		Set<String> windowHandles = driver.getWindowHandles();
 		for (String window : windowHandles) {

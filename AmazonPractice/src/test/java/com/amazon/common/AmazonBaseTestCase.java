@@ -1,24 +1,25 @@
 package com.amazon.common;
 
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
-import com.amazon.pages.HomePage;
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 
 public class AmazonBaseTestCase extends WebDriverTestCase {
 
-	@BeforeSuite
+	@BeforeMethod
 	public void signIn()
 	{
 		getDriver().get("/");
 		getDriver().manage().window().maximize();
 	}
 	
-	@AfterSuite
-	public void tearDown()
-	{
+	@AfterMethod
+	public void tearDown() {
 		getDriver().quit();
+		
 	}
+	
+	
 	
 }

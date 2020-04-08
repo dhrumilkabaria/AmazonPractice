@@ -10,5 +10,10 @@
 				<name>books</name>
 			</item1>
 		</category2>
+		<category3>Category3
+			<item1>
+				<name>shampoo</name>
+			</item1>
+		</category3>
 	</searchItems>
 </root>
