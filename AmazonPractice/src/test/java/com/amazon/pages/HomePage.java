@@ -22,6 +22,12 @@ public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage> {
 		return signinButton;
 	}
 
+	@FindBy(locator = "homepage.amazonLogo.link")
+	private QAFWebElement amazonLogo;
+	public QAFWebElement getAmazonLogo() {
+		return amazonLogo;
+	}
+	
 	public void doLogin(String username, String password) {
 		Actions action = new Actions(driver);
 		action.moveToElement(this.getSigninMenu());
