@@ -7,14 +7,14 @@ import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 
 public class AmazonBaseTestCase extends WebDriverTestCase {
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void signIn()
 	{
 		getDriver().get("/");
 		getDriver().manage().window().maximize();
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		getDriver().quit();
 		
