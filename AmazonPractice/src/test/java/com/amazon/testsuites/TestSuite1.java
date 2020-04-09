@@ -15,7 +15,7 @@ import com.qmetry.qaf.automation.testng.dataprovider.QAFDataProvider;
 
 public class TestSuite1 extends AmazonBaseTestCase{
 	
-	@Test
+	@Test(groups = "logoVerification")
 	public void verifyLogoInHeaderAfterLogin()
 	{
 		HomePage homePage = new HomePage();
