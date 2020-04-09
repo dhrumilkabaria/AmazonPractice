@@ -15,6 +15,12 @@ public class ProductDetailsPage extends WebDriverBaseTestPage<WebDriverTestPage>
 		return productName;
 	}
 	
+	@FindBy(locator = "productDetailsPage.addToCartButton.button")
+	private QAFWebElement addToCartButton;
+	public QAFWebElement getAddToCartButton() {
+		return addToCartButton;
+	}
+	
 	@Override
 	protected void openPage(PageLocator locator, Object... args) {
 		// TODO Auto-generated method stub

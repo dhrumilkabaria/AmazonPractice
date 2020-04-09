@@ -1,1 +1,2 @@
 productDetailsPage.productName.text=xpath=//span[contains(@id,'Title')]
+productDetailsPage.addToCartButton.button=xpath=//input[@id='add-to-cart-button']
