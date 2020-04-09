@@ -111,17 +111,10 @@ public class TestSuite1 extends AmazonBaseTestCase{
 		searchResultPage.getSearchPanel().verifyVisible();
 		
 		List<SearchedProductComponent> listOfSearchedProducts = searchResultPage.getListOfSearchedProducts();
-		
-		String productNameInSearchResults = listOfSearchedProducts.get(2).getProductName().getText();
-		//verifyTrue(productNameInSearchResults.contains(data.get("name")), "3rd product in the search results doesn't contain the searched keyword '"+data.get("name")+"'", "3rd product in the search results contains the searched keyword '"+data.get("name")+"'");
-		
 		listOfSearchedProducts.get(2).getProductName().click();
 		AmazonUtility.switchToNewWindow();
 		
 		ProductDetailsPage productDetailsPage = new ProductDetailsPage();
-		String productNameOnDetailsPage = productDetailsPage.getProductName().getText();
-		verifyTrue(productNameInSearchResults.equals(productNameOnDetailsPage), "Product name in details page doesn't match with product name in search results page", "Product name in details page doesn't match with product name in search results page");
-		
 		productDetailsPage.getAddToCartButton().click();
 		AddedToCartPage addedToCartPage = new AddedToCartPage();
 		addedToCartPage.waitForPageToLoad();

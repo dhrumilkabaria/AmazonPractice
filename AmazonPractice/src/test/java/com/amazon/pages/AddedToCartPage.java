@@ -15,12 +15,7 @@ public class AddedToCartPage extends WebDriverBaseTestPage<WebDriverTestPage>{
 		return addedToCartMessage;
 	}
 	
-	@PageIdentifier
-	@FindBy(locator = "addedToCartPage.proceedToBuyButton.button")
-	private QAFWebElement proceedToBuyButton;
-	public QAFWebElement getProceedToBuyButton() {
-		return proceedToBuyButton;
-	}
+	
 	
 	
 	@Override

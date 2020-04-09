@@ -1,2 +1,2 @@
 addedToCartPage.addedToCartMessage.header=xpath=//h1[normalize-space(text())='Added to Cart']
-addedToCartPage.proceedToBuyButton.button=xpath=//a[normalize-space(text())='Proceed to Buy (5 items)']
+addedToCartPage.proceedToBuyButton.button=xpath=//a[contains(text(),'Proceed to Buy')]
