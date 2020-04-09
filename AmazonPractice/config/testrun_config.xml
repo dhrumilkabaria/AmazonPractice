@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAF Demo" verbose="0">
+	<test name="Amazon" enabled = "true">
+		<groups>
+			<run>
+				<include name="category1"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.amazon.testsuites.TestSuite1"></class>
+		</classes>
+	</test>
+
+</suite>
